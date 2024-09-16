@@ -1,0 +1,3 @@
+export DJANGO_SUPERUSER_PASSWORD=ch4nge_!t
+export DJANGO_SUPERUSER_USERNAME=sls_admin
+export DJANGO_SUPERUSER_EMAIL=admin.library@sls.com
