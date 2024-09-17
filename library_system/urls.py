@@ -18,6 +18,8 @@ from django.contrib import admin
 from django.urls import path, include
 
 urlpatterns = [
+    path("login/", include('rest_framework.urls')),
     path("admin/", admin.site.urls),
-    path("", include("library_system.books.urls"))
+    path("", include("library_system.books.urls")),
+    path("", include("library_system.students.urls"))
 ]
